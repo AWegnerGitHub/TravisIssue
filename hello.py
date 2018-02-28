@@ -1,6 +1,6 @@
 import os
 
-print("Hello World!")
+print("Hello World from new owner!")
 aws_id = os.environ['AWS_ACCESS_KEY_ID']
 aws_secret = os.environ['AWS_SECRET_ACCESS_KEY']
 print("AWS KEY ID: |{}{}|".format(aws_id[:len(aws_id)//2], aws_id[len(aws_id)//2:]))
